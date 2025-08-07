@@ -224,12 +224,33 @@ a {
   margin-right: 50px;
 }
 
-.skills{
+.skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   max-width: 600px;
+}
+
+.skilss div {
+  color: white;
+  border: 1px solid aqua;
+  background-color: #222;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid aqua;
+  background-color: #222;
+  color: white;
 }
 
 .contact-me {
