@@ -193,8 +193,8 @@ a {
 
 .pic-container {
   border: 1px solid aqua;
-  width: 400px;
-  height: 400px;
+  width: 290px;
+  height: 280px;
   border-radius: 50%;
 }
 
@@ -208,7 +208,7 @@ a {
 .all-about-me {
   color: white;
   box-shadow: rgba(0, 0, 0, 0) 0px 54px 55px, rgba(0, 0, 0, 0) 0px -12px 30px, rgba(0, 0, 0, 0) 0px 4px 6px, rgba(0, 0, 0, 0) 0px 12px 13px, rgba(0, 0, 0, 0) 0px -3px 5px;
-  width: 100%;
+  width: 750px;
   height: 400px;
   padding: 20px;
 }
@@ -232,6 +232,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 15px;
+}
+
+.p-for-skill {
+  padding-bottom: 55px;
 }
 
 .skills {
@@ -314,11 +319,9 @@ a {
   padding-bottom: 30px;
 }
 
-.con-text {
-  align-items: start;
-}
+.con-text {}
 
-.contact-form {
+.con- .contact-form {
   color: rgba(255, 255, 255, 0.863);
 }
 
