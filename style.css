@@ -29,7 +29,6 @@ nav button {
   border-radius: 3px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-right: 50px;
 }
 
 nav button:hover {
@@ -470,7 +469,7 @@ a {
 
 .footer {
   background-color: #1F1F1F;
-  height: 200px;
+  height: 100%;
   padding-top: 50px;
   color: rgba(255, 255, 255, 0.863);
 }
