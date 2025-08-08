@@ -409,3 +409,15 @@ a {
   }
 
 }
+
+@media (max-width: 750px) {
+  .all-about-me {
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  nav a{
+    display: none;
+  }
+}
