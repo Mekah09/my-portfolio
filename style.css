@@ -228,11 +228,9 @@ a {
 }
 
 .service-2 {
-  padding: 60px 20px;
-  max-width: 1200px;
+  width: 100%;
   margin: 0;
-  padding: 0;
-  padding-right: 10px;
+  padding: 60px;
 }
 
 .service-2 h2 {
@@ -330,6 +328,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 15px;
+  padding: 50px;
 }
 
 .sk-text {
