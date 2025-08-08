@@ -234,7 +234,9 @@ a {
   padding: 0;
   padding-right: 10px;
 }
-
+.service-2 h2{
+  padding-bottom: 20px;
+}
 .featuredproject {
   display: grid;
   justify-content: space-between;
