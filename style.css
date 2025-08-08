@@ -124,22 +124,106 @@ a {
   flex-wrap: wrap;
 }
 
-.what-i-do {
+.whatido p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.what-i-do-1 {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   width: 350px;
-  height: 250px;
+  height: 300px;
   padding: 20px;
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
   border: 1px solid aqua;
+  position: relative;
 }
 
-.what-i-do:hover {
+.what-i-do-1:before {
+  content: "01";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.05);
+  font-weight: bold;
+}
+
+.what-i-do-2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  border: 1px solid aqua;
+  position: relative;
+}
+
+.what-i-do-2:before {
+  content: "02";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.05);
+  font-weight: bold;
+}
+
+.what-i-do-3 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  border: 1px solid aqua;
+  position: relative;
+}
+
+.what-i-do-3:before {
+  content: "02";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.05);
+  font-weight: bold;
+}
+
+.icons {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.what-i-do h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.whatido-div {
+  width: 70px;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0 20px;
+}
+
+.what-i-do-1:hover {
   background-color: aqua;
   color: black;
 }
-
+.what-i-do-2:hover {
+  background-color: aqua;
+  color: black;
+}
+.what-i-do-3:hover {
+  background-color: aqua;
+  color: black;
+}
 .service-2 {
   padding: 60px 20px;
   max-width: 1200px;
@@ -235,9 +319,14 @@ a {
   justify-content: space-between;
   margin-top: 15px;
 }
-
+.sk-text{
+  margin-left: 50px;
+  color: white;
+}
 .p-for-skill {
   padding-bottom: 55px;
+  width: 500px;
+  color: white;
 }
 
 .skills {
@@ -246,9 +335,10 @@ a {
   justify-content: center;
   gap: 20px;
   width: 600px;
+  height: 250px;
 }
 
-.skilss div {
+.skills div {
   color: white;
   border: 1px solid aqua;
   background-color: #222;
@@ -272,23 +362,25 @@ a {
 
 .rounded-rec {
   border-radius: 10px;
-  min-width: 150px;
+  min-width: 200px;
   padding: 10px;
   background-color: #222;
   color: white;
   text-align: center;
   padding: 20px 30px;
   border: 1px solid aqua;
+  height: 70px;
 }
 
 .rounded-rec-m {
   border-radius: 50px;
-  min-width: 150px;
+  min-width: 200px;
   padding: 20px 40px;
   background-color: #222;
   color: white;
   text-align: center;
   border: 1px solid aqua;
+  height: 70px;
 }
 
 .contact-me {
@@ -417,7 +509,16 @@ a {
 }
 
 @media (max-width: 600px) {
-  nav a{
+  nav a {
     display: none;
   }
+}
+
+@media (max-width: 360px) {
+.p-for-skill {
+  width: 100%;
+}
+.sk-text{
+  padding-top: 100px;
+}
 }
