@@ -234,9 +234,11 @@ a {
   padding: 0;
   padding-right: 10px;
 }
-.service-2 h2{
+
+.service-2 h2 {
   padding-bottom: 20px;
 }
+
 .featuredproject {
   display: grid;
   justify-content: space-between;
@@ -263,9 +265,11 @@ a {
   height: auto;
   margin: 0 auto;
 }
-.featuredprojects h2{
+
+.featuredprojects h2 {
   margin-top: 50px;
 }
+
 .my-bio {
   background-color: #1F1F1F;
   padding-bottom: 50px;
@@ -513,6 +517,7 @@ a {
   .all-about-me {
     width: auto;
   }
+
   .featuredproject {
     grid-template-columns: 1fr 1fr;
   }
@@ -523,13 +528,15 @@ a {
     display: none;
   }
 }
+
 @media (max-width: 500px) {
   .featuredproject {
     grid-template-columns: 1fr;
   }
 
 }
-@media (max-width: 360px) {
+
+@media (max-width: 400px) {
   .p-for-skill {
     width: 100%;
     margin: 0 auto;
@@ -537,6 +544,7 @@ a {
 
   .sk-text {
     padding-top: 200px;
+    margin: 0 auto;
   }
 
 }
