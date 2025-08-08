@@ -240,7 +240,6 @@ a {
   justify-content: space-between;
   grid-template-columns: 2fr 2fr 2fr;
   gap: 30px;
-  margin: 0 auto;
 }
 
 .featuredprojects {
@@ -248,6 +247,9 @@ a {
   border: 1px solid aqua;
   padding: 20px;
   border-radius: 4px;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .featuredprojects:hover {
@@ -255,11 +257,13 @@ a {
 }
 
 .featuredprojects img {
-  max-width: 100%;
-  border-radius: 3px;
-  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
-
+.featuredprojects h2{
+  margin-top: 50px;
+}
 .my-bio {
   background-color: #1F1F1F;
   padding-bottom: 50px;
@@ -507,6 +511,9 @@ a {
   .all-about-me {
     width: auto;
   }
+  .featuredproject {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 600px) {
@@ -514,7 +521,12 @@ a {
     display: none;
   }
 }
+@media (max-width: 500px) {
+  .featuredproject {
+    grid-template-columns: 1fr;
+  }
 
+}
 @media (max-width: 360px) {
   .p-for-skill {
     width: 100%;
