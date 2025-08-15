@@ -136,7 +136,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   position: relative;
 }
 
@@ -158,7 +158,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   position: relative;
 }
 
@@ -180,7 +180,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   position: relative;
 }
 
@@ -245,7 +245,7 @@ a {
 
 .featuredprojects {
   background-color: #1F1F1F;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   padding: 20px;
   border-radius: 4px;
   height: 250px;
@@ -286,7 +286,7 @@ a {
 }
 
 .pic-container {
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   width: 290px;
   height: 280px;
   border-radius: 50%;
@@ -351,7 +351,7 @@ a {
 
 .skills div {
   color: white;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   background-color: #222;
   padding: 20px 30px;
   text-align: center;
@@ -365,7 +365,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   background-color: #222;
   color: white;
   padding: 20px 30px;
@@ -379,7 +379,7 @@ a {
   color: white;
   text-align: center;
   padding: 20px 30px;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   height: 70px;
 }
 
@@ -390,7 +390,7 @@ a {
   background-color: #222;
   color: white;
   text-align: center;
-  border: 1px solid aqua;
+  border: 1px solidaqua;
   height: 70px;
 }
 
