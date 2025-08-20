@@ -5,7 +5,7 @@
 }
 
 nav {
-  background: url(images/bg-imgggg.png);
+  background: url(images/bg-5.jpg);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,8 @@ nav img {
 
 nav button {
   padding: 10px;
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
   border: none;
   border-radius: 3px;
   padding-left: 15px;
@@ -33,6 +33,9 @@ nav button {
 
 nav button:hover {
   cursor: pointer;
+  background-color: #1A1A1A;
+  color: #DAA520;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.8);
 }
 
 .nav-links {
@@ -49,15 +52,20 @@ nav button:hover {
 }
 
 .btns-icon {
-  background-color: #e0e0e0;
+  background-color: #DAA520;
   border-radius: 50%;
   padding: 15px;
   font-size: 20px;
-  color: black;
+  color: #1A1A1A;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
 }
 
+.btns-icon:hover {
+  color: #DAA520;
+  transform: scale(1.2);
+  background-color: #1A1A1A;
+}
 
 li {
   list-style: none;
@@ -70,12 +78,12 @@ a {
 }
 
 .a1:hover {
-  color: aqua;
+  color: #DAA520;
 }
 
 
 .img-bg {
-  background: url(images/bg-imgggg.png);
+  background: url(images/bg-5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +101,7 @@ a {
 }
 
 .service {
-  background-color: #121212;
+  background-color: #060303;
   color: white;
   padding-bottom: 60px;
 }
@@ -110,7 +118,7 @@ a {
 }
 
 .text-color {
-  color: aqua;
+  color: #DAA520;
 }
 
 .wid-con {
@@ -136,7 +144,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   position: relative;
 }
 
@@ -158,7 +166,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   position: relative;
 }
 
@@ -180,7 +188,7 @@ a {
   margin-top: 20px;
   background-color: #1F1F1F;
   border-radius: 12px;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   position: relative;
 }
 
@@ -212,18 +220,18 @@ a {
 }
 
 .what-i-do-1:hover {
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
 }
 
 .what-i-do-2:hover {
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
 }
 
 .what-i-do-3:hover {
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
 }
 
 .service-2 {
@@ -245,7 +253,7 @@ a {
 
 .featuredprojects {
   background-color: #1F1F1F;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   padding: 20px;
   border-radius: 4px;
   height: 250px;
@@ -254,7 +262,7 @@ a {
 }
 
 .featuredprojects:hover {
-  background-color: aqua;
+  background-color: #DAA520;
 }
 
 .featuredprojects img {
@@ -269,6 +277,7 @@ a {
 
 .my-bio {
   background-color: #1F1F1F;
+  ;
   padding-bottom: 50px;
 }
 
@@ -286,7 +295,7 @@ a {
 }
 
 .pic-container {
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   width: 290px;
   height: 280px;
   border-radius: 50%;
@@ -313,8 +322,8 @@ a {
 } */
 .about-me button {
   padding: 10px;
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
   border: none;
   border-radius: 3px;
   padding-left: 15px;
@@ -322,12 +331,19 @@ a {
   margin-right: 50px;
 }
 
+.about-me button:hover {
+  cursor: pointer;
+  background-color: #1A1A1A;
+  color: #DAA520;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.8);
+}
+
 .skills-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 15px;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .sk-text {
@@ -336,8 +352,8 @@ a {
 }
 
 .p-for-skill {
-  padding-bottom: 55px;
-  width: 500px;
+  /* padding-bottom: 55px; */
+  /* width: 500px; */
   color: white;
 }
 
@@ -351,7 +367,7 @@ a {
 
 .skills div {
   color: white;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   background-color: #222;
   padding: 20px 30px;
   text-align: center;
@@ -365,7 +381,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   background-color: #222;
   color: white;
   padding: 20px 30px;
@@ -379,7 +395,7 @@ a {
   color: white;
   text-align: center;
   padding: 20px 30px;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   height: 70px;
 }
 
@@ -390,12 +406,12 @@ a {
   background-color: #222;
   color: white;
   text-align: center;
-  border: 1px solidaqua;
+  border: 1px solid#DAA520;
   height: 70px;
 }
 
 .contact-me {
-  background: url(images/bg-imgggg.png);
+  background: #060303;
   color: white;
   padding-bottom: 120px;
 }
@@ -458,13 +474,20 @@ a {
 
 .contact-form button {
   padding: 10px;
-  background-color: aqua;
-  color: black;
+  background-color: #DAA520;
+  color: #1A1A1A;
   border: none;
   border-radius: 3px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: 50px;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+  background-color: #1A1A1A;
+  color: #DAA520;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.8);
 }
 
 .footer {
