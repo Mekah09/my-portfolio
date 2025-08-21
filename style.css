@@ -4,6 +4,15 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
 nav {
   background: url(images/bg-5.jpg);
   color: white;
@@ -96,7 +105,7 @@ a {
   padding-top: 125px;
   text-align: center;
   color: white;
-  line-height: 50px;
+  line-height: 40px;
   margin: 0 auto;
 }
 
