@@ -105,6 +105,11 @@ a {
   margin: 0 auto;
 }
 
+.animate__animated {
+  --animate-duration: 2s;
+  --animate-delay: 0.01s;
+}
+
 .service {
   background-color: #060303;
   color: white;
@@ -198,7 +203,7 @@ a {
 }
 
 .what-i-do-3:before {
-  content: "02";
+  content: "03";
   position: absolute;
   top: 20px;
   right: 20px;
@@ -227,16 +232,22 @@ a {
 .what-i-do-1:hover {
   background-color: #DAA520;
   color: #1A1A1A;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 .what-i-do-2:hover {
   background-color: #DAA520;
   color: #1A1A1A;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 .what-i-do-3:hover {
   background-color: #DAA520;
   color: #1A1A1A;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 .service-2 {
