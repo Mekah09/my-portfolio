@@ -49,6 +49,19 @@ nav button:hover {
   flex-wrap: wrap;
 }
 
+.nav-links.active {
+  right: 0;
+}
+
+#hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  cursor: pointer;
+  z-index: 1100;
+  color: white;
+}
+
 .btns {
   display: flex;
   justify-content: center;
@@ -550,7 +563,7 @@ a {
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
   .all-about-me {
     width: auto;
   }
@@ -558,13 +571,40 @@ a {
   .featuredproject {
     grid-template-columns: 1fr 1fr;
   }
+
+  .con {
+    width: auto;
+  }
+
+  .contact-form input {
+    width: auto;
+  }
+
+  /* hide nav links on small screens and show them when .active is added */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0;
+    background: transparent;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  #hamburger {
+    display: block;
+  }
 }
 
+/* 
 @media (max-width: 600px) {
   nav a {
     display: none;
   }
-}
+} */
 
 @media (max-width: 500px) {
   .featuredproject {
