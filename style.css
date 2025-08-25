@@ -586,7 +586,9 @@ a {
   .featuredproject {
     grid-template-columns: 1fr 1fr;
   }
-
+   .skills-container{
+    padding: 20px;
+   }
   .con {
     width: auto;
   }
@@ -648,9 +650,9 @@ a {
     margin: 0 auto;
   } */
 
-  .sk-text {
+  /* .sk-text {
     padding-top: 200px;
     width: 100%;
-  }
+  } */
 
 }
