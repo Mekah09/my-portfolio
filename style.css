@@ -400,6 +400,7 @@ a {
   justify-content: center;
   gap: 20px;
   width: 500px;
+  padding: 20px;
 }
 
 .skills div {
@@ -643,7 +644,7 @@ a {
   }
 
   .second-about-me {
-    padding-top: 230px;
+    padding-top: 260px;
   }
 }
 
