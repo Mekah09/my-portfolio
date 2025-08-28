@@ -315,7 +315,6 @@ a {
 
 .my-bio {
   background-color: #1F1F1F;
-  ;
   padding-bottom: 50px;
 }
 
@@ -643,6 +642,9 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .second-about-me {
+    padding-top: 230px;
+  }
 }
 
 @media (max-width: 400px) {
