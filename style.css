@@ -578,6 +578,21 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
+  .rounded-rec{
+    min-width: 0%;
+  }
+
+  .rounded-rec-m{
+    min-width: 0%;
+  }
+
+  .circle{
+    min-width: 0%;
+  }
+
+  .none0{
+    display: none;
+  }
 }
 
 @media (max-width: 760px) {
