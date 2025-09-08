@@ -574,6 +574,10 @@ a {
     width: auto;
   }
 
+  .featuredproject {
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
 @media (max-width: 760px) {
