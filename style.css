@@ -9,6 +9,7 @@
 
 body {
   background: url(images/bg-5.jpg);
+  object-fit: cover;
 }
 
 nav {
@@ -483,10 +484,6 @@ a {
   color: rgba(255, 255, 255, 0.863);
 }
 
-.con-text {
-  /* width: 300px; */
-  /* font-size: 20px; */
-}
 
 .contact-form input {
   width: 100%;
