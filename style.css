@@ -532,6 +532,12 @@ a {
   box-shadow: 0 0 15px rgba(218, 165, 32, 0.8);
 }
 
+.contact-details{
+  align-items: start;
+}
+.contact-box{
+  line-height: 40px;
+}
 .footer {
   background-color: #1F1F1F;
   height: 100%;
