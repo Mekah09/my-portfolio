@@ -302,6 +302,8 @@ a {
 
 .featuredprojects:hover {
   background-color: #DAA520;
+  animation: heartBeat;
+  animation-duration: 1s;
 }
 
 .featuredprojects img {
